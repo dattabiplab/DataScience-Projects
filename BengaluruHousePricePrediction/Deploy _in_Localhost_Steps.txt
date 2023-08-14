@@ -1,0 +1,15 @@
+1. copy the BHP project folder in a respective drive or folder
+2. download nginx 
+3. copy the downloaded nginx folder to drive C "Program Files" folder
+4. copy the path location of client folder
+5. open the nginx.conf file in conf folder of nginx folder
+6. paste this code at respective position from the nginx-fix photo
+ 	location / {
+            root   "C:\Users\BIPLAB DATTA\BHP\client";
+            index  index.html index.htm app.html;
+        }
+7. in root paste the path of client folder and save the file
+8. open the terminal(such as Git Bash) in server folder of the bhp project
+9. type python server.py and start the server
+10. now go to the nginx folder of the program files and double click on the nginx.exe app and start the app
+11. open the browser and type localhost and the app will be running there
