@@ -10,7 +10,12 @@ This data science project series walks through step by step process of how to bu
 
 # Demo Video of the Project 
 <br>
-![***demo***](https://github.com/dattabiplab/DataScience-Projects/blob/509dee4101673d496a1361bdb03181253aa3b4b7/BengaluruHousePricePrediction/bhp_demo.mp4)
+
+
+https://github.com/dattabiplab/DataScience-Projects/assets/98644626/7a611364-632c-4b85-b53b-d2bcf16320f8
+
+
+
 # Deploy this app Locally
 
 1. Download the BengaluruHousePricePrediction project folder in a respective drive or folder.
@@ -18,8 +23,9 @@ This data science project series walks through step by step process of how to bu
 3. Copy the downloaded nginx folder to "Drive C" ***Program Files*** folder.
 4. Copy the path location of "client" folder present in the project folder.
 5. Open the ***nginx.conf*** file in conf folder of the nginx folder.
-6. Paste this code at the respective position from the
-   ![nginx-fix](https://github.com/dattabiplab/DataScience-Projects/blob/509dee4101673d496a1361bdb03181253aa3b4b7/BengaluruHousePricePrediction/nginx-fix.png) photo.
+6. Paste this code at the respective position from the "nginx-fix" photo.
+   ![nginx-fix](https://github.com/dattabiplab/DataScience-Projects/assets/98644626/15a5af04-31c6-473d-818f-efdf1d6883cb)
+
    ```
  	location / {
             root   "C:\Users\BIPLAB DATTA\BHP\client";
